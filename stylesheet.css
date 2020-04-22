@@ -20,7 +20,7 @@ a {
 .container {
   max-width: 1170px;
   width: 100%;
-  /* padding: 0 15px; */
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -30,17 +30,15 @@ a {
   padding-bottom:30px;
   color: #4a4a4a;
   text-align: center;
+  padding:10px 0 30px 0;
 }
 
 .heading h1 {
-  margin: 0 ;
-  /* left: 0; */
-  background-color: rgba(0, 0, 0, 0.1);
   padding-bottom: 15px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   font-weight: normal;
-  width: 100%;
-  border-bottom-right-radius: 1000px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
 
 .teams-wrapper {
@@ -152,27 +150,31 @@ a {
 }
 
 .contact-wrapper{
+  align-self: center;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   background-image: url('/img/contact-bg.jpg');
   background-size: 100vw;
   background-attachment: fixed;
+  text-align: center;
 }
 .contact-form h3{
   font-size: 28px;
   border-bottom: 2px solid #dee7ec;
   padding-bottom:15px;
   margin-bottom:50px;
+
 }
 input, textarea{
   border: 1px solid #dee7ec;
-  width:400px;
-  padding:20px;
-  margin:10px 0 30px 0;
+  width:50%;
+  padding:10px;
+  margin:10px 0 20px 0;
   font-size: 18px;
 }
 .btn-submit{
   background-color: #dee7ec;
-  color: #889eab;
+  color: #586267;
+  width: 30% !important;
 }
