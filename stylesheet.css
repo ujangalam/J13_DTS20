@@ -23,9 +23,73 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+/* --------------------- */
+header{
+  font-family: Rajdhani,sans-serif;
+}
+header h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px black;
+}
 
+header h2 {
+  opacity: 0.7;
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px black;
+}
+header h3 {
+  opacity: 0.9;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-bottom: 45px;
+  text-shadow: 2px 2px black;
+}
+.main {
+  padding: 180px 0 100px 0;
+  background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2018/darkenergy.jpg);
+  background-size: cover;
+  color: white;
+  text-align:center;
+  opacity: 0.85;
+}
 
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  /* Ubah nilai border-radius ke 4px */
+  border-radius:4px;
+}
+.btn:hover{
+  opacity:1;
+}
+.j13-a:hover {
+  color: rgb(0, 183, 255);
+}
+.j13-b:hover {
+  color: rgb(255, 123, 0);
+}
+.j13-c:hover {
+  color: rgb(102, 255, 0);
+}
+.j13-d:hover {
+  color: rgb(255, 0, 221);
+}
+.j13-e:hover {
+  color: rgb(255, 0, 55);
+}
 
+.go {
+  background-color: #0093FB;
+}
+
+/* --------------------- */
 .heading {
   padding-bottom:30px;
   color: #4a4a4a;
@@ -92,7 +156,9 @@ a {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-image: url("https://i.imgur.com/CYI9uPn.jpg");
+  background-size: 100vw;
+  background-attachment: fixed;
   /* height: 600px; */
   /* padding: 50px 5px 50px 5px; */
   /* background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%); */
@@ -154,9 +220,7 @@ a {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-image: url("https://i.imgur.com/CYI9uPn.jpg");
-  background-size: 100vw;
-  background-attachment: fixed;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
   text-align: center;
 }
 .contact-form h3{
