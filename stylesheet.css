@@ -51,7 +51,7 @@ header h3 {
 }
 .main {
   padding: 180px 0 100px 0;
-  background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2018/darkenergy.jpg);
+  background-image: url("https://scx2.b-cdn.net/gfx/news/hires/2018/darkenergy.jpg");
   background-size: cover;
   color: white;
   text-align:center;
