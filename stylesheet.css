@@ -131,12 +131,14 @@ header h3 {
 
 .teams-icon img{
   height: 200px;
-  transition: .5s;
+  transition: 1s;
 }
 
 .teams-icon img:hover{
   height: 220px;
-  transition: .5s;
+  transition: .2s;
+  border-radius: 110px;
+  box-shadow: 2px 2px 20px #5b5b5b;
 }
 
 .teams-name {
@@ -176,11 +178,11 @@ header h3 {
   border-radius: 10px;
   padding: 5px 20px;
   margin:20px;
-  transition: .3s;
+  transition: 1s;
 }
 .detail-box:hover{
   box-shadow: 2px 2px 10px #7e7e7e;
-  transition: .5s;
+  transition: .2s;
 }
 
 .detail-box h2{
@@ -242,6 +244,7 @@ input, textarea{
   margin:0px 0 25px 0;
   border-radius: 10px;
   font-size: 18px;
+  transition: .5s;
 }
 .btn-submit{
   margin-top: 20px;
@@ -249,4 +252,8 @@ input, textarea{
   color: #545454;
   width: 25% !important;
   border-radius: 5px;
+}
+input:hover, textarea:hover{
+  box-shadow: 1px 5px 5px #7e7e7e;
+  transition: .1s;
 }
