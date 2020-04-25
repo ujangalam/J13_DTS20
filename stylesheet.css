@@ -319,3 +319,19 @@ input:hover, textarea:hover{
   box-shadow: 1px 5px 5px #7e7e7e;
   transition: .1s;
 }
+
+/* --------footer--------- */
+footer img {
+  width: 150px;
+  align: center;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
