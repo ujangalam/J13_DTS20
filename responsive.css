@@ -5,12 +5,28 @@
     margin-bottom: 50px;
   }
   
+  .main {
+    color: #00b7ff;
+  }
+
   .main h1 {
     font-size: 32px;
   }
   
+  .main h3 a {
+    color: #00b7ff;
+  }
+
   .heading h1 {
     font-size: 20px;
+  }
+
+  .teams-wrapper {
+    height: auto;
+  }
+
+  footer img {
+    width: 100px; 
   }
 }
 
@@ -20,16 +36,16 @@
     width: 100%;
   }
   
-  footer {
-    text-align: center;
-  }
-  
   .btn {
     width: 100%;
   }
   
   .top-wrapper {
     text-align: left;
+  }
+
+  .teams-wrapper {
+    height: auto;
   }
   
   .header-right {
@@ -40,21 +56,55 @@
     display: block;
   }
   
+  .main {
+    color: #21fb00;
+  }
+
   .main h1 {
     font-size: 24px;
     line-height: 36px;
   }
   
-  .top-wrapper p {
-    font-size: 14px;
-    line-height: 20px;
+  .main h2 {
+    font-size: 20px;
   }
   
+  .main h3 a {
+    font-size: 18px;
+    color: #21fb00;
+  }
+
+  .detail {
+    width: 100%;
+  }
+
+  .detail-left {
+    width: 80%;
+    font-size: 12px;
+  }
+
+  .detail-right {
+    width: 80%;
+    font-size: 12px;
+  }
+
+.detail-img {
+    padding: 15% 0;
+  }
+
   .btn-submit {
     width: 100%;
   }
 
   input, textarea {
-  width: 100%;
+    width: 100%;
   }
+    
+  footer {
+    text-align: center;
+  }
+
+  footer img {
+  width: 75px; 
+}
 }
